@@ -1,0 +1,28 @@
+#body {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgb(34,193,195);
+    background: linear-gradient(-45deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite alternate;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.card{
+    border: solid 2px black;
+    border-radius: 4;
+    margin: 3px;
+    padding: 3px;
+}
